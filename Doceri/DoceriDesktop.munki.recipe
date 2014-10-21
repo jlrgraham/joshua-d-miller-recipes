@@ -10,6 +10,8 @@
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>Productivity</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
         <key>NAME</key>
         <string>Doceri Desktop</string>
         <key>pkginfo</key>
@@ -21,7 +23,7 @@
             <key>display_name</key>
             <string>Doceri Desktop</string>
             <key>category</key>
-            <string>Productivity</string>
+            <string>%MUNKI_CATEGORY%</string>
             <key>developer</key>
             <string>SP Controls, Inc.</string>
             <key>description</key>

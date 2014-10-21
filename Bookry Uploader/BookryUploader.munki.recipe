@@ -10,6 +10,8 @@
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>Media</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Media</string>
         <key>NAME</key>
         <string>Bookry Uploader</string>
     	<key>pkginfo</key>
@@ -21,7 +23,7 @@
             <key>display_name</key>
             <string>Bookry Uploader</string>
             <key>category</key>
-            <string>Media</string>
+            <string>%MUNKI_CATEGORY%</string>
             <key>developer</key>
             <string>Bookry Ltd.</string>
     		<key>description</key>

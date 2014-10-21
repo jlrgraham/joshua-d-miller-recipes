@@ -10,6 +10,8 @@
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>Admin</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Administrative Tools</string>
         <key>NAME</key>
         <string>Drobo Dashboard</string>
     	<key>pkginfo</key>
@@ -21,7 +23,7 @@
             <key>display_name</key>
             <string>Drobo Dashboard</string>
             <key>category</key>
-            <string>Administrative Tools</string>
+            <string>%MUNKI_CATEGORY%</string>
             <key>developer</key>
             <string>Drobo, Inc.</string>
     		<key>description</key>

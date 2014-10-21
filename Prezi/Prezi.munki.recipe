@@ -10,6 +10,8 @@
     <dict>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>Productivity</string>
+        <key>MUNKI_CATEGORY</key>
+        <string>Productivity</string>
         <key>NAME</key>
         <string>Prezi Desktop</string>
     	<key>pkginfo</key>
@@ -19,7 +21,7 @@
     			<string>testing</string>
     		</array>
             <key>category</key>
-            <string>Productivity</string>
+            <string>%MUNKI_CATEGORY%</string>
             <key>developer</key>
             <string>Prezi</string>
             <key>display_name</key>
