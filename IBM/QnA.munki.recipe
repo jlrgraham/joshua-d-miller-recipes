@@ -21,11 +21,11 @@
                 <string>testing</string>
             </array>
             <key>category</key>
-            <string>%MUNKI_CATEGORY%</key>
+            <string>%MUNKI_CATEGORY%</string>
             <key>display_name</key>
             <string>IBM QnA</string>
             <key>developer</key>
-            <string>IBM<.string>
+            <string>IBM</string>
             <key>description</key>
             <string>Tool used to perform debugging of both relevance and Fixlets/Tasks for IBM Endpoint Manager.</string>
             <key>name</key>
